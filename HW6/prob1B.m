@@ -1,0 +1,19 @@
+%% problem 1 part b)
+
+A=[-1 5 -2 7;...
+   3 0 -1 10;...
+   -7 0 6 4;...
+   0 3 2 1];
+
+[A] = decompLU(A);
+[invA] = inverseLU(A)
+
+%% problem 1 part c)
+%compare b) with MATLAB inv built in
+
+A=[-1 5 -2 7;...
+   3 0 -1 10;...
+   -7 0 6 4;...
+   0 3 2 1];
+
+MATLAB_inv=inv(A)
